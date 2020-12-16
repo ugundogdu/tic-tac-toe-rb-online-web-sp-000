@@ -91,5 +91,8 @@ end
   end
 
   def over?(board)
-    won?(board) || full?(board) ||draw?
+    if full?(board) ==true
+      return true
   end
+  return false
+end

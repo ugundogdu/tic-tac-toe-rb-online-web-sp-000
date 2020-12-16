@@ -44,3 +44,7 @@ def turn_count(board)
     if position != " "
       count +=1
 end
+
+count
+
+end

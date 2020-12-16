@@ -16,10 +16,12 @@
         null,
         null,
         1,
-        1,
-        null
+        0,
+        null,
+        null,
+        1
       ]
     },
-    "timestamp": 1608147396
+    "timestamp": 1608147447
   }
 }

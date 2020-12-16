@@ -28,8 +28,8 @@ end
 
 def position_taken(board, position)
   if board[index] == " " || board[index] == "" || board[index] == nil
-    taken = false
+    false
   elsif board[index] == "X" || board[index] == "O"
-    taken = true
+    true
   end
 end

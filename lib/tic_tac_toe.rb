@@ -50,9 +50,9 @@ def turn(board)
 end
 
 def turn_count(board)
-  counter = 0
+  count = 0
   board.each do |space|
-    if  space != " " || ""
+    if  space != " " ||
       count += 1
     end
   end

@@ -83,6 +83,7 @@ end
 def full?(board)
   if board.all? do |position|
     position == "X" || position == "O"
+    return true
   end
 
   def draw?(board)

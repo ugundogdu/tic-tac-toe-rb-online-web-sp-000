@@ -12,6 +12,6 @@ WIN_COMBINATIONS = [
 
 
 def display_board(board)
-  board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+  board = [" ", " ", " ", " ", " ", " ", " ", " " , " "]
   display_board(board)
 end

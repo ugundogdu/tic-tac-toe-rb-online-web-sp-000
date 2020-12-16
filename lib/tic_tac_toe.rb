@@ -9,5 +9,7 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 
+def display_board(board)
+end
 board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)

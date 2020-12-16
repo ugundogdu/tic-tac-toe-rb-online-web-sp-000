@@ -19,5 +19,5 @@ def display_board(board)
 end
 
 def input_to_index(index)
-  input_to_index - 1
+  input.to - 1
 end

@@ -39,5 +39,7 @@ def valid_move?(board, position)
 end
 
 def turn_count(board)
-  position_taken?(board)
+  count = 0
+  board.each do |position|
+    if position != " "
 end

@@ -46,5 +46,4 @@ def turn_count(board, position)
 end
 
 count
-
 end

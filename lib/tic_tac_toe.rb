@@ -26,7 +26,7 @@ def move(board, position, player_token)
   board[position] = player_token
 end
 
-def position_taken(board)
+def position_taken(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     taken = false
   elsif board[index] == "X" || board[index] == "O"

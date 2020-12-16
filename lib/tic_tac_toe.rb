@@ -37,3 +37,7 @@ end
 def valid_move?(board, position)
   position.between?(0,8)  && !position_taken?(board, position)
 end
+
+def turn_count(board)
+  position_taken?(board)
+end
